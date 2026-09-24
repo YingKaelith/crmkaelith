@@ -1,0 +1,11 @@
+Nexo CRM Mono 2.2 — dados preservados
+
+Este pacote preserva a base SQLite existente (nexo.db) e o histórico de backups encontrado na instalação recebida.
+
+Por segurança, NÃO foram copiados para o pacote:
+- setup-token.txt (token temporário/sensível de instalação)
+- server.pid e server.pid.ant (arquivos voláteis de processo)
+- .venv (ambiente local, não portável)
+- .git (metadados de desenvolvimento)
+
+Antes de substituir uma instalação em uso, faça uma cópia externa do diretório data/. Para produção hospedada, siga a estratégia de banco e backup documentada no projeto.

@@ -1,0 +1,9 @@
+/* Nexo Mono 2.1 — core palette, for reuse in your company's interfaces. */
+:root {
+  --nexo-black: #111111;
+  --nexo-ink: #171717;
+  --nexo-white: #FFFFFF;
+  --nexo-background: #F7F7F7;
+  --nexo-muted: #666666;
+  --nexo-border: #E5E5E5;
+}

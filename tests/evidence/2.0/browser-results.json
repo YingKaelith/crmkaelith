@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "browser": "144.0.7559.96",
+  "mode": "bridge",
+  "checks": [
+    "Instalação pela interface, criação do administrador e abertura do painel vazio",
+    "Configurações persistidas no servidor e valor brasileiro 30.000 convertido corretamente",
+    "Cadastro de cliente por formulário, persistido no banco",
+    "Oportunidade híbrida, próximo contato obrigatório e valor em centavos",
+    "Proposta com quantidade decimal, desconto e conteúdo HTML exibido como texto",
+    "Aceite atualiza venda e cliente atomicamente, sem criar recebimento fictício",
+    "Venda convertida em projeto com seis tarefas do serviço combinado",
+    "Conclusão de tarefa salva no servidor e integrada ao progresso do projeto",
+    "Agenda mensal com seis semanas e tarefas do projeto",
+    "Liquidação manual de receita com data e forma de pagamento",
+    "Geração de mensalidade e bloqueio de duplicação na mesma competência",
+    "Administrador cria conta e gera código de ativação individual de uso único",
+    "Sessão independente vê o mesmo cliente, sem módulo financeiro nem valor do projeto",
+    "Alteração de tarefa pela Operação aparece na base compartilhada do administrador",
+    "Conversa marcada privada pela interface é omitida da resposta da API para Operação",
+    "Conflito real de edição recusa sobrescrita e mantém os campos não salvos no formulário",
+    "Migração do backup local com prévia, confirmação e preservação de contas",
+    "Auditoria exibida com autor, ações e campos alterados",
+    "Treze áreas renderizadas em 390 px sem transbordamento horizontal da página",
+    "Cadastro completo de cliente na janela de celular",
+    "Saída pela interface revoga a sessão no servidor",
+    "Fluxos exercitados sem erro JavaScript não tratado"
+  ],
+  "javascriptErrors": []
+}

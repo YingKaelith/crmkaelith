@@ -1,0 +1,65 @@
+{
+  "origin": "http://127.0.0.1:8891",
+  "checkedAt": "2026-09-20T01:22:53.365856+00:00",
+  "scope": "Somente leitura; sem login, sem alterações",
+  "passed": true,
+  "checks": [
+    {
+      "check": "API responde e consulta o banco",
+      "passed": true
+    },
+    {
+      "check": "Página principal acessível sem redirecionamento",
+      "passed": true
+    },
+    {
+      "check": "HTML referencia manifesto e instalação",
+      "passed": true
+    },
+    {
+      "check": "Proteções CSP e antienquadramento",
+      "passed": true
+    },
+    {
+      "check": "HTML não fica em cache HTTP",
+      "passed": true
+    },
+    {
+      "check": "Manifesto define abertura como aplicativo",
+      "passed": true
+    },
+    {
+      "check": "Ícones declarados em 192 e 512 pixels",
+      "passed": true
+    },
+    {
+      "check": "Ícone acessível: /icons/icon-192.png",
+      "passed": true
+    },
+    {
+      "check": "Ícone acessível: /icons/icon-512.png",
+      "passed": true
+    },
+    {
+      "check": "Ícone acessível: /icons/maskable-512.png",
+      "passed": true
+    },
+    {
+      "check": "Service worker acessível",
+      "passed": true
+    },
+    {
+      "check": "Base não é exposta sem login",
+      "passed": true
+    },
+    {
+      "check": "Backup não é exposto sem login",
+      "passed": true
+    }
+  ],
+  "warnings": [
+    "Primeiro administrador ainda não criado. Use o token secreto no painel do provedor.",
+    "Execução local: não confirma domínio público, TLS real, PWA instalada ou acesso externo.",
+    "Este teste não valida instalação em celular, permissões entre contas, restauração PostgreSQL, carga ou disponibilidade futura."
+  ]
+}

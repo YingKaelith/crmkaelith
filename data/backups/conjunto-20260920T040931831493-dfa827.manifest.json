@@ -1,0 +1,18 @@
+{
+  "createdAt": "2026-09-20T04:09:31.900Z",
+  "database": "sqlite",
+  "full": true,
+  "businessRevision": 0,
+  "files": [
+    {
+      "name": "automatico-20260920T040931-a5bdf0.json",
+      "bytes": 676,
+      "sha256": "3677615425ca932e7359131e6c95c7a359006194dab748d96c1b091a4ffa8c7c"
+    },
+    {
+      "name": "integral-20260920T040931831493-dfa827.sqlite",
+      "bytes": 86016,
+      "sha256": "4764d5120ce9036cc92c6c2a494d1ee44933862d901a35f28f8117c396c9f915"
+    }
+  ]
+}

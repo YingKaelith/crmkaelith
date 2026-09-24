@@ -1,0 +1,16 @@
+# Cliente pg_dump da mesma série principal do PostgreSQL do compose.
+FROM postgres:17-bookworm
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 NEXO_DATA_DIR=/var/lib/nexo
+RUN apt-get update && apt-get install -y --no-install-recommends python3 python3-venv \
+ && rm -rf /var/lib/apt/lists/* \
+ && python3 -m venv /opt/venv \
+ && useradd --uid 10001 --create-home nexo \
+ && mkdir -p /var/lib/nexo && chown 10001:10001 /var/lib/nexo
+ENV PATH="/opt/venv/bin:$PATH"
+WORKDIR /app
+COPY requirements.txt requirements-postgres.txt ./
+RUN pip install --no-cache-dir -r requirements-postgres.txt
+COPY --chown=10001:10001 server/ ./server/
+USER 10001:10001
+ENTRYPOINT []
+CMD ["python","-m","server.backup","--loop","--interval-hours","6","--retention","28"]

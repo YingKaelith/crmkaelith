@@ -1,0 +1,17 @@
+{
+  "archive": "Nexo-CRM-Equipe-2.0.zip",
+  "zipIntegrity": "passed",
+  "manifestVerificationAfterExtraction": "passed",
+  "extractedLauncherHttpSmoke": "passed",
+  "firstAdminAndEmptyDatabase": "passed",
+  "automaticBackupFromExtractedPackage": "passed",
+  "dependencies": "preinstalled; --no-install",
+  "environment": "Python 3.13.5 / Linux",
+  "notExecuted": [
+    "dependency download on clean computer",
+    "Windows/macOS native launch",
+    "PostgreSQL",
+    "Docker deployment",
+    "HTTPS/native browser session"
+  ]
+}

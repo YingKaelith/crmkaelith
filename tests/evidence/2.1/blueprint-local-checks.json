@@ -1,0 +1,13 @@
+{
+  "status": "passed-local-checks",
+  "checks": [
+    "YAML parses",
+    "Paid plan identifiers declared",
+    "Same region for service and DB",
+    "Auto-deploy off",
+    "Database external access disabled",
+    "Setup secret generated at deploy",
+    "Dockerfile exists"
+  ],
+  "limitation": "Local parsing and assertions only. Not validated with Render schema/API and not deployed."
+}

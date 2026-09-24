@@ -1,0 +1,52 @@
+[
+  {
+    "document": "guia",
+    "width": 1440,
+    "passed": true,
+    "scroll": 1440,
+    "viewport": 1440,
+    "images": [
+      {
+        "ok": true
+      },
+      {
+        "ok": true
+      }
+    ],
+    "title": "Nexo CRM Mono · Guia de publicação"
+  },
+  {
+    "document": "guia",
+    "width": 390,
+    "passed": true,
+    "scroll": 390,
+    "viewport": 390,
+    "images": [
+      {
+        "ok": true
+      },
+      {
+        "ok": true
+      }
+    ],
+    "title": "Nexo CRM Mono · Guia de publicação"
+  },
+  {
+    "document": "paleta",
+    "width": 1440,
+    "passed": true,
+    "scroll": 1440,
+    "viewport": 1440,
+    "images": [],
+    "title": "Paleta Nexo Mono"
+  },
+  {
+    "document": "paleta",
+    "width": 390,
+    "passed": true,
+    "scroll": 390,
+    "viewport": 390,
+    "images": [],
+    "title": "Paleta Nexo Mono"
+  }
+]

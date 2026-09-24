@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "version": "2.1.0",
+  "meta": {
+    "createdAt": "2026-09-20T01:36:40.284Z",
+    "updatedAt": "2026-09-20T01:36:40.284Z",
+    "lastBackup": "2026-09-20T01:36:40.403Z",
+    "revision": 0,
+    "changeId": "initial",
+    "demo": false,
+    "onboarded": true
+  },
+  "settings": {
+    "company": "Sua agência",
+    "owner": "Minha operação",
+    "email": "",
+    "phone": "",
+    "document": "",
+    "city": "",
+    "brandColor": "#111111",
+    "monthlyGoalCents": 0,
+    "team": []
+  },
+  "clients": [],
+  "deals": [],
+  "proposals": [],
+  "projects": [],
+  "tasks": [],
+  "contracts": [],
+  "entries": [],
+  "activities": []
+}

@@ -1,0 +1,8 @@
+{
+    email {$NEXO_TLS_EMAIL}
+}
+{$NEXO_DOMAIN} {
+    encode zstd gzip
+    reverse_proxy app:8000
+    # Não habilitar log de corpos/cookies/códigos de ativação.
+}

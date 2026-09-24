@@ -1,0 +1,12 @@
+{
+  "result": "passed",
+  "scope": "Fresh extraction of packaged application, local SQLite and installed Python dependencies; no Docker, HTTPS, cloud or PostgreSQL test.",
+  "archive_crc": "passed",
+  "manifest_files_verified": 95,
+  "javascript_syntax_files": 3,
+  "server_entrypoint": "python -m server.run",
+  "read_only_http_checks_passed": 13,
+  "provider_accessed": false,
+  "publicly_deployed": false,
+  "limitation": "The final archive was rebuilt only to include this result and the documentation note; final hashes and CRC are checked after the rebuild."
+}
